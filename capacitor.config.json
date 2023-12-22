@@ -1,0 +1,21 @@
+{
+  "appId": "com.ambicam.app",
+  "appName": "ambicam",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://lite.ambicam.com",
+  "cleartext": true,
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CameraPreview": {
+      "web": {
+        "useMock": true
+      }
+    }
+  },
+  "permissions": [
+    "camera"
+  ]
+}
